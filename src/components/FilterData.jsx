@@ -2,7 +2,7 @@ const FilterBar = ({ filters, removeFilter, clearFilters }) => {
   if (filters.length === 0) return null;
 
   return (
-    <div className="w-full  mx-auto bg-white p-6 rounded shadow-md flex-wrap flex justify-between md:gap-20 items-center mb-6 absolute top-30 left-2 ">
+    <div className="w-full  mx-auto bg-white p-6 px-10 rounded shadow-md flex-wrap flex justify-between md:gap-20 items-center mb-6 absolute top-30 left-2 ">
       
       <div className="flex flex-wrap gap-2">
         {filters.map((filter, index) => (
